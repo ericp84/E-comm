@@ -1,0 +1,39 @@
+.Signin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.Inpt {
+    height: 50px;
+    border-radius: 25px;
+    padding: 14px;
+    margin-top: 15px;
+}
+.icons {
+    position: relative;
+    right: 1.5rem;
+    top: 0.5rem;
+}
+
+.pass-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.pass-wrapper > input {
+    position: relative;
+    left: 15px;
+}
+
+.btn {
+    width: 13.375rem;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgb(150, 64, 64);
+}
